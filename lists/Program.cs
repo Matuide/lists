@@ -6,12 +6,17 @@ namespace lists
     {
         static void Main(string[] args)
         {
+            List1 students = new List1();
+            List1 student = new List1();
             Console.WriteLine("Hello World!");
-            for(int i = 0; i < 1;)
-            {
-Console.Beep();
-            }
-            
+            students.addList("James");
+            students.addList("Timmofei");
+            students.addList("Benan");
+            students.addList("Louis");
+            students.PrintList();
+            student.addList("Charlie");
+            student.PrintList();
+
         }
     }
 }

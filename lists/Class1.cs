@@ -41,7 +41,13 @@ public void addList(string name)
         }
         public void PrintList()
         {
-
+            Node temp;
+            temp = head;
+            while (temp != null)
+            {
+                Console.WriteLine(temp.name);
+                temp = temp.next;
+            }
         }
 
     }
